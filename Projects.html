@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Проекты</title>
+
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- <link rel="stylesheet" type="text/css" href="normalize.css"> -->
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- PHP -->
+
+	<link href="submite_1.php"> 
+
+	<link href="https://fonts.googleapis.com/css?family=Oswald|Roboto:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
+
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	
+	<script src="jquery-3.4.1.min.js"></script>
+
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+	<script src="script.js"></script>	
+</head>
+
+<body>
+
+	<section class="section__confirmation__form">
+    	<div class="confirmation__form">
+	    	<h2 class="confirmation__form__title">Ваш заказ принят</h2>
+
+	    	<div class="confirmation__form__text">В ближайшее время наш специалист позвонит&nbsp;Вам, чтобы рассказать о всех деталях и ответить на возникшие вопросы</div>
+
+	    	<div class="confirmation__form__button">
+	    		<a href="#" class="bnt__confirmation">хорошо</a>
+	    	</div>
+	    </div>
+    </section>
+
+	<header class="header__inner__our">
+		<div class="container">
+			<div id="Main" class="header__inner">
+				<div class="header__logo">
+					LOGO
+				</div>
+
+				<nav class="nav">
+					<a href="index.html" class="nav__link">Главная</a>
+					<a href="index.html#Main#AboutUs" class="nav__link">О нас</a>
+					<a href="#Services" class="nav__link">Услуги</a>
+					<a href="#Licenses" class="nav__link">Лицензии</a>
+					<a href="#Projects" class="nav__link" id="gondon">Проекты</a>
+					<a href="#Partners" class="nav__link">Партнеры</a>
+					<a href="#Contacts" class="nav__link">Контакты</a>
+				</nav>
+
+				<div class="header__contacts">
+					<!-- <div class="header__contacts__inner">
+						<div class="contacts__number">
+							8 (8639) 24-19-32
+						</div>
+
+						<div class="contacts__email">
+							Promstroimontag1@mail.ru
+						</div>
+					</div> -->
+
+					<div class="header__contacts__inner fadeOut__projects__img">
+						<div class="contacts__number">
+							8 (8639) 24-19-32
+						</div>
+
+						<div class="contacts__email">
+							Promstroimontag1@mail.ru
+						</div>	
+					</div>
+
+					<div class="contacts__button">
+						<a class="btn__c" href="#">связаться с нами</a>	
+					</div>	
+				</div>
+
+						
+			</div>
+		</div>    <!-- Container --> 
+	</header>
+
+	<section class="section__form">
+    	<form class="form">
+    		<div class="header__form">
+    			<h2 class="form__title">Закажите звонок</h2>
+
+    			<div class="form__text">
+    				И наш специалист перезвонит вам, чтобы рассказать о всех деталях и ответить на возникшие вопросы
+    			</div>
+    		</div>
+
+    		<div class="main__form">
+    			<form action="/submit.php" method="POST">
+	    			<input class="form__input" autocorrect="off" autocomplete="name" required="required" placeholder="Имя..." name="name">
+	    			<input class="form__input" name="tel" type="tel" autocorrect="off" autocomplete="tel" placeholder="Телефон...">
+	    			<input class="form__input" type="Email" name="Email" autocapitalize="off" autocorrect="off" autocomplete="email" required="required" placeholder="Email...">
+	    			<button type="submit" class="form__button">отправить</button>
+	    		</form>
+    		</div>
+    	</form>
+    </section>
+
+	<section class="inner__projects">
+		<div class="container__main">
+			<div class="inner__projects__main">
+				<h2 class="inner__projects__main__title">
+					Проекты
+				</h2>
+
+				<div class="inner__projects__container">
+					<div class="inner__projects__items">
+						<div class="our__projects__item">
+							<img class="fadeOut__projects__img" src="img/projects/projects__items.png" alt="projects__items">
+
+							<img class="fadeIn__projects__img" src="img/projects/projects__items(2.2).png" alt="projects__items">
+							
+
+							<div class="prjects__item__description">
+								Гулькевичский крахмальный завод (Краснодарский край) 
+							</div>
+
+							<a href="Project-1.html" class="our__projects__more">Подробнее</a>
+						</div>
+					</div>
+
+					<div class="inner__projects__items">
+						<div class="our__projects__item">
+							<img class="fadeOut__projects__img" src="img/projects/projects__items.png" alt="projects__items">
+
+							<img class="fadeIn__projects__img" src="img/projects/projects__items(2.2).png" alt="projects__items">
+
+							<div class="prjects__item__description">
+								"АСТОН",<br>г. Морозовск
+							</div>
+
+							<a href="Project-2.html" class="our__projects__more">Подробнее</a>
+						</div>
+					</div>
+
+					<div class="inner__projects__items">
+						<div class="our__projects__item">
+							<img class="fadeOut__projects__img" src="img/projects/projects__items.png" alt="projects__items">
+
+							<img class="fadeIn__projects__img" src="img/projects/projects__items(2.2).png" alt="projects__items">
+
+							<div class="prjects__item__description">
+								Строительная компания «ПМК-17» г. Элиста
+							</div>
+
+							<a href="Project-3.html" class="our__projects__more">Подробнее</a>
+						</div>
+					</div>
+
+					<div class="inner__projects__items">
+						<div class="our__projects__item">
+							<img class="fadeOut__projects__img" src="img/projects/projects__items.png" alt="projects__items">
+
+							<img class="fadeIn__projects__img" src="img/projects/projects__items(2.2).png" alt="projects__items">
+
+							<div class="prjects__item__description">
+								Инженерная защита территории<br>г. Сочи
+							</div>
+
+							<a href="Project-4.html" class="our__projects__more">Подробнее</a>
+						</div>
+					</div>
+
+					<div class="inner__projects__items">
+						<div class="our__projects__item">
+							<img class="fadeOut__projects__img" src="img/projects/projects__items.png" alt="projects__items">
+
+							<img class="fadeIn__projects__img" src="img/projects/projects__items(2.2).png" alt="projects__items">
+							<div class="prjects__item__description">
+								"АМИЛКО",<br>г. Миллерово
+							</div>
+
+							<a href="Project-5.html" class="our__projects__more">Подробнее</a>
+						</div>
+					</div>
+
+					<!-- <div class="inner__projects__items">
+						<div class="our__projects__item">
+							<img src="img/projects/projects__items.png" alt="projects__items">
+
+							<div class="prjects__item__description">
+								Гулькевичский крахмальный завод (Краснодарский край) 
+							</div>
+
+							<a href="#" class="our__projects__more">Подробнее</a>
+						</div>
+					</div>
+
+					<div class="inner__projects__items">
+						<div class="our__projects__item">
+							<img src="img/projects/projects__items.png" alt="projects__items">
+
+							<div class="prjects__item__description">
+								Гулькевичский крахмальный завод (Краснодарский край) 
+							</div>
+
+							<a href="#" class="our__projects__more">Подробнее</a>
+						</div>
+					</div>
+
+					<div class="inner__projects__items">
+						<div class="our__projects__item">
+							<img src="img/projects/projects__items.png" alt="projects__items">
+
+							<div class="prjects__item__description">
+								Гулькевичский крахмальный завод (Краснодарский край) 
+							</div>
+
+							<a href="#" class="our__projects__more">Подробнее</a>
+						</div>
+					</div>
+
+					<div class="inner__projects__items">
+						<div class="our__projects__item">
+							<img src="img/projects/projects__items.png" alt="projects__items">
+
+							<div class="prjects__item__description">
+								Гулькевичский крахмальный завод (Краснодарский край) 
+							</div>
+
+							<a href="#" class="our__projects__more">Подробнее</a>
+						</div>
+					</div>
+
+					<div class="inner__projects__items">
+						<div class="our__projects__item">
+							<img src="img/projects/projects__items.png" alt="projects__items">
+
+							<div class="prjects__item__description">
+								Гулькевичский крахмальный завод (Краснодарский край) 
+							</div>
+
+							<a href="#" class="our__projects__more">Подробнее</a>
+						</div>
+					</div>
+
+					<div class="inner__projects__items">
+						<div class="our__projects__item">
+							<img src="img/projects/projects__items.png" alt="projects__items">
+
+							<div class="prjects__item__description">
+								Гулькевичский крахмальный завод (Краснодарский край) 
+							</div>
+
+							<a href="#" class="our__projects__more">Подробнее</a>
+						</div>
+					</div>
+
+					<div class="inner__projects__items">
+						<div class="our__projects__item">
+							<img src="img/projects/projects__items.png" alt="projects__items">
+
+							<div class="prjects__item__description">
+								Гулькевичский крахмальный завод (Краснодарский край) 
+							</div>
+
+							<a href="#" class="our__projects__more">Подробнее</a>
+						</div>
+					</div> -->
+				</div>
+
+				<div class="inner__projects__links">
+					<a href="#" class="first__project__link">1</a>
+					<a href="#" class="project__link">2</a>
+					<a href="#" class="project__link">3</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	
+
+    <footer class="footer">
+    	<div class="container">
+    		<div class="footer__inner">
+    			<div class="footer__logo">
+    				logo
+    			</div>
+
+    			<div class="footer__text">
+    				Строительство и модернизация Аренда техники
+    			</div>
+
+    			<nav class="footer__nav">
+					<a href="#" class="nav__link">Главная</a>
+					<a href="#AboutUs" class="nav__link">О нас</a>
+					<a href="#Services" class="nav__link">Услуги</a>
+					<a href="#Licenses" class="nav__link">Лицензии</a>
+					<a href="#Projects" class="nav__link">Проекты</a>
+					<a href="#Partners" class="nav__link">Партнеры</a>
+					<a href="#Contacts" class="nav__link">Контакты</a>
+				</nav>
+
+				<div class="footer__button">
+					<a href="#" class="btn__c">аренда техники</a>
+				</div>
+    		</div>
+    	</div>
+    </footer>
+
+    <script type="text/javascript">$("html,body").css("overflow-y","visible");</script>
+
+
+</body>
+</html>
